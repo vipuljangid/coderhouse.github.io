@@ -1,0 +1,111 @@
+.modelWrapper{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background:rgb(0,0,0,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.modelBody{
+    width: 50%;
+    max-width: 500px;
+    background: #1d1d1d ;
+    border-radius: 20px;
+    outline: none;
+    position: relative;
+}
+
+.closeButton{
+    position: absolute;
+    right: 7px;
+    top: 9px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.closeButton:hover{
+    background: #1f1f1f;
+}
+
+.modelHeader{
+    padding: 30px;
+    border-bottom: 2px solid #262626;
+}
+.roomTypesHeading{
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.modelHeading{
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.roomTypes{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-bottom: 18px;
+}
+
+.roomTypes div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 16px 22px;
+
+}
+
+.active{
+    background:#262626;
+    border-radius: 15px;;
+
+
+    
+}
+
+.modelFooter{
+    display: flex;
+    flex-direction: column  ;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.modelButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 600;
+    width: 35%;
+    margin: 25px 0;
+    padding: 7px 0;
+    border-radius: 32px;
+    background: #20BD5F;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition:all .3s ease-in-out;
+}
+
+.modelButton img{
+    margin-right: 7px;
+}
+
+.modelButton:hover{
+    background: #1b934b;
+}
+
+
